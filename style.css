@@ -1,0 +1,60 @@
+body {
+  padding: 20px;
+  margin: 0;
+}
+
+.tag-cloud {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.tag {
+  display: inline-block;
+  background: #edf2f7;
+  color: #4a5568;
+  padding: 8px 16px;
+  margin: 8px;
+  border-radius: 30px;
+  transition: all 0.2s ease;
+}
+
+.tag-sm {
+  font-size: 12px;
+}
+
+.tag-sm:hover {
+  background: #718096;
+  color: white;
+  scale: 1.05;
+}
+
+.tag-md {
+  font-size: 14px;
+}
+
+.tag-md:hover {
+  background: #4a5568;
+  color: white;
+  scale: 1.05;
+}
+
+.tag-lg {
+  font-size: 16px;
+}
+
+.tag-lg:hover {
+  background: #2d3748;
+  color: white;
+  scale: 1.05;
+}
+
+.tag-xl {
+  font-size: 20px;
+}
+
+.tag-xl:hover {
+  background: #1a202c;
+  color: white;
+  scale: 1.05;
+}
